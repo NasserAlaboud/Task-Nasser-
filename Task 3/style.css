@@ -1,0 +1,58 @@
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: red;
+    
+}
+
+.flex-container >p{
+    color: #f7f9fa;
+}
+
+.right-side{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.sign-in {
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+
+
+h2{
+    text-align: center;
+}
+.products{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.products p{
+    text-align: right;
+    margin-right: 5px;
+}
+
+.products > dev{
+    border-radius: 5px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);    border-width: thin;
+    border-style: hidden;
+    border-color: #f7f9fa; 
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    margin-top: 10px;
+}
+
+footer>p{
+    color: #f7f9fa;
+}
